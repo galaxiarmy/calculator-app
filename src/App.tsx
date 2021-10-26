@@ -1,13 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-
-interface UserData {
-  firstValue: number;
-  secondValue: number;
-  thirdValue: number;
-  result: number
-}
 
 const App = () => {
   const [firstValue, setFirstValue] = useState("")
